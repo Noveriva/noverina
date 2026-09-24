@@ -1,0 +1,10 @@
+.git
+.workflow
+deploy
+**/bin
+**/obj
+**/logs
+**/.env*
+**/docker-compose*.yaml
+**/docker-compose*.yml
+.DS_Store

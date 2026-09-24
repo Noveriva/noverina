@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.4">
+  <ItemGroup>
+    <ProjectReference Include="..\Noverina.Api\Noverina.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.Docker" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>07a512d9-5d87-4a41-99ec-e95edc83ac5d</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

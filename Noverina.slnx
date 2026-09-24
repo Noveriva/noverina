@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+    <File Path="global.json" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="NuGet.Config" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Noverina.Api/Noverina.Api.csproj" />
+    <Project Path="src/Noverina.AppHost/Noverina.AppHost.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Expenses/" />
+  <Folder Name="/src/Modules/Identity/" />
+  <Folder Name="/src/Modules/Incomes/" />
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Noverina.Shared.ModuleDefinition/Noverina.Shared.ModuleDefinition.csproj" />
+  </Folder>
+</Solution>
